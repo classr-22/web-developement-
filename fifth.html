@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fifth</title>
+<meta charset="utf-8">
+<meta name="author" content="sumit">
+<meta name="discription" content="javascript">
+<meta name="keywords" content="html,css,javascript">
+<script type="text/javascript">
+function sum()
+{
+var a=parseInt(document.getElementById('val1').value);
+var b=parseInt(document.getElementById('val2').value);
+var c=parseInt(a*b);
+document.getElementById('sumof').value=c;
+
+}
+function sample()
+{
+alert("data is changed");
+
+}
+</script>
+</head>
+<body>
+<form name="addition">
+<input type="text" name="val1" id="val1" value="" onchange="sample()"><br>
+<input type="text" name="val2" id="val2" value=""><br>
+<input type="button" name="add" value="add" onclick="sum()">
+<input type="text" name="sumof" id="sumof" value="" >
+</form>
+</body>
+</html>
