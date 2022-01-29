@@ -1,0 +1,181 @@
+body{
+    font-family: "montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+.pricing-h3
+{
+    font-weight: bolder;   
+}
+.feature-text
+{
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+.cta-heading
+{
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.pricing-heading
+{ 
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder; 
+}
+.big-heading{
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.testimonial-text
+{
+   
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder; 
+}
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+#title
+{
+background-color: #ff4c68;
+color: #fff;
+
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+.navbar
+{
+
+    padding:0 0 4.5rem ;
+
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}    
+
+
+.nav-item 
+{
+padding-left: 18px;
+padding-right:18px ;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "🇲🇸-light" ;
+}
+.btn
+{
+    margin: 5% 3% 5% 0;
+}
+.titleimage{
+width: 60%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  
+    
+}
+.feature-class
+{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon
+{
+    color: #ef8172;
+    margin:1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+#testimonials
+{
+ 
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image
+{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom:3%;
+
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column
+{
+    padding: 3% 2%;
+}
+@media(max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .titleimage
+    {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
+#cta{
+background-color:#ff4c68 ;
+text-align: center;
+padding: 100px 15% 40px;
+
+}
+
+#footer{
+    background-color:#fff ;
+    text-align: center;
+    padding: 100px 15% 40px;
+}
+.footer-image
+{
+    margin: 20px 10px;
+}
